@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy Sharma — Web Developer & UI Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="brand">
+                <div class="logo">SS</div>
+            </div>
+            <div style="font-weight: 700;">Sandy Sharma</div>
+            <div class="small muted">Web Developer · UI Designer</div>
+            <nav>
+                <a href="#about">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero card">
+                <div class="left">
+                    <h1>Hi, I'm <strong>Sandy Sharma</strong></h1>
+                    <div class="tag">Web Developer & UI Designer</div>
+                    <p class="lead">I build modern, responsive, and user-friendly websites that help businesses and
+                        individuals make a strong online presence. I focus on clean UI and performant code.</p>
+                    <div class="cta">
+                        <button class="btn primary" id="hireBtn">Hire Me</button>
+                        <button class="btn" id="downloadResume">Download Resume</button>
+                    </div>
+                    <div style="margin-top:12px;color:var(--muted)">
+                        📍 Patel Nagar, New Delhi &nbsp;•&nbsp; ☎️ <strong id="phone">7505039356</strong>
+                    </div>
+                    <div class="profile-photo"><img src="sandy.image.jpg" alt=""></div>
+                </div>
+            </section>
+
+            <section id="about" class="card">
+                <p class="muted">I’m a passionate Web Developer and UI Designer with a strong eye for detail and a drive
+                    to solve real problems. I specialize in building clean, modern, and functional websites using HTML,
+                    CSS, and JavaScript. I also have working knowledge of UI tools and responsive design principles.</p>
+                <p class="muted">Along with web development, I keep learning about data science mastery in the stock
+                    market and have completed certifications in web development — this helps me think analytically and
+                    design with business goals in mind.</p>
+            </section>
+
+            <section id="skills" class="card">
+                <div class="skill"><span>HTML</span>
+                    <div class="bar" style="width:55%"><i style="width:95%"></i></div>
+                </div>
+                <div class="skill"><span>CSS</span>
+                    <div class="bar" style="width:55%"><i style="width:90%"></i></div>
+                </div>
+                <div class="skill"><span>JavaScript</span>
+                    <div class="bar" style="width:55%"><i style="width:85%"></i></div>
+                </div>
+                <div class="skill"><span>UI / Figma</span>
+                    <div class="bar" style="width:55%"><i style="width:85%"></i></div>
+                </div>
+                <div class="skill"><span>Git & VS Code</span>
+                    <div class="bar" style="width:55%"><i style="width:82%"></i></div>
+                </div>
+            </section>
+
+            <section id="projects" class="card">
+                <div class="project">
+                    <div class="proj">
+                        <h4>Portfolio Website</h4>
+                        <div class="muted">HTML, CSS, JavaScript — Responsive personal portfolio with contact form and
+                            resume download</div>
+                        <div style="margin-top: 8px;"> <a href="#" class="btn">View Live</a></div>
+                    </div>
+                    <div class="proj">
+                        <h4>Business Landing Page</h4>
+                        <div class="muted">Custom landing page with modern UI and responsive layout...</div>
+                        <div style="margin-top: 8px;"> <a href="#" class="btn">View Live</a></div>
+                    </div>
+                    <div class="proj">
+                        <h4>E-commerce UI Mock</h4>
+                        <div class="muted">UI design and prototype created in Figma with product pages and checkout
+                            flow.</div>
+                        <div style="margin-top: 8px;"> <a href="#" class="btn">View Live</a></div>
+                    </div>
+                    <div class="proj">
+                        <h4>Small Business Site</h4>
+                        <div class="muted">Built site for a local business — improved load speed & mobile UX.</div>
+                        <div style="margin-top: 8px;"><a href="#" class="btn">View Live</a></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card" style="margin-top: 12px;">
+                <h3>Experience</h3>
+                <p class="muted"> <strong>Freelance Web Developer (2023 – Present)</strong><br>Worked with clients to
+                    design
+                    and build responsive websites and landing pages. Tasks included front-end development, UI design,
+                    and
+                    performance improvements...</p>
+
+                <h3 style="margin-top: 12px;">Education</h3>
+                <p class="muted"><strong>B.COM</strong> Graduated from MJPRU, India</p>
+
+                <h3 style="margin-top: 12px;">Achievements & Certifications</h3>
+                <ul style="color:var(--muted)">
+                    <li>Web Development Certification</li>
+                    <li>Active learner & participant in data analysis</li>
+                    <li>Mastery in stock market</li>
+                </ul>
+            </section>
+
+            <aside>
+                <section id="contact" class="card">
+                    <h3>Contact</h3>
+                    <div class="contact">Phone</div>
+                    <div style="font-weight: 700;">7505039356</div>
+                    <div style="margin-top: 12px;" class="small">Email</div>
+                    <div style="font-weight: 700;">sandeepsharma93560@gmail.com</div>
+                    <div style="margin-top: 12px;" class="small">Location</div>
+                    <div style="font-weight: 700;">Patel Nagar, New Delhi</div>
+                    <div style="margin-top: 12px;" class="small">Message me</div>
+                    <input id="name" placeholder="Your name">
+                    <input id="email" placeholder="Your email">
+                    <textarea id="message" rows="4" placeholder="Message (brief)"></textarea>
+                    <button class="btn" id="sendMsg">Send Message</button>
+                </section>
+
+                <section class="card" style="margin-top: 12px;">
+                    <h3>Quick Links</h3>
+                    <div style="display: flex; gap: 8px; flex-direction: column;">
+                        <a class="btn" href="#projects">View Projects</a>
+                        <a class="btn" href="#contact">Contact</a>
+                        <a class="btn" href="#skills">My Skills</a>
+                    </div>
+                </section>
+
+                <section class="card" style="margin-top: 12px; text-align: center;">
+                    <h4>Want my Resume?</h4>
+                    <div class="muted">Click <strong>Download Resume</strong> at the top to get a ready resume file.
+                    </div>
+                </section>
+            </aside>
+        </main>
+
+        <footer>
+            © 2025 Sandy Sharma • Patel Nagar, New Delhi
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
